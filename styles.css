@@ -8,17 +8,22 @@ body {
 }
 
 .header,
-.footer {
+.footer,
+.info,
+.quote,
+.action-call {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #1F2937;
-    width: 100%;
+}
+
+.header,
+.footer {
+   background-color: #1F2937;
 }
 
 .content {
    display: flex;
-   width: 60%;
    justify-content: center;
 }
 
@@ -26,7 +31,7 @@ body {
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    width: 60%;
+    width: 55%;
 }
 
 .logo {
@@ -51,6 +56,7 @@ body {
 .header .content {
    margin-top: 7%;
    margin-bottom: 7%;
+   width: 55%;
 }
 
  .header .content .image {
@@ -73,12 +79,12 @@ body {
     font-size: 48px;
     color: #F9FAF8;
     font-weight: bolder;
-    margin-right: 4em;
+    margin-right: 1em;
     margin-bottom: 6px;
  }
 
  .hero-secondary {
-    margin-right: 5em;
+    margin-right: 3em;
     margin-bottom: 12px;
  }
 
@@ -92,9 +98,8 @@ body {
  }
 
  .info {
-   display: flex;
    flex-direction: column;
-   align-items: center;
+   justify-content: center;
  }
 
  .main {
@@ -102,26 +107,27 @@ body {
    color: #1F2937;
    font-size: 36px;
    font-weight: bolder;
-   width: 60%;
-   padding: 2%;
+   width: 48%;
+   padding: 3%;
  }
 
  .info .content {
    justify-content: space-between;
-   margin-bottom: 10%;
+   margin-bottom: 8%;
+   width: 48%
  }
 
  .card {
    display: flex;
    flex-direction: column;
-   width: 180px;
+   width: 150px;
  }
 
  .card .image {
-   border: 5px solid #3882F6;
+   border: 3px solid #3882F6;
    border-radius: 24px;
-   height: 180px;
-   width: 180px; 
+   height: 150px;
+   width: 150px; 
  }
 
  .card .text {
@@ -130,3 +136,23 @@ body {
    flex: auto;
  }
 
+.quote {
+   background-color: #E5E7EB;
+}
+
+.quote .content {
+   color: #1F2937;
+   font-size: 36px;
+   font-style: italic;
+   margin-top: 8%;
+   width: 45%;
+}
+
+.signature {
+   text-align: right;
+   color: #1F2937;
+   width: 40%;
+   font-size: 24px;
+   font-weight: bold;
+   margin-bottom: 8%;
+}

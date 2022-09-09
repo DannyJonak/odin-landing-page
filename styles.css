@@ -59,7 +59,7 @@ a {
    width: 55%;
 }
 
-.header .content .image {
+.header .image {
    display: flex;
    justify-content: center;
    align-items: center;
@@ -67,7 +67,7 @@ a {
    flex: 1;
 }
 
-.header .content .text {
+.header .text {
    display: flex;
    flex-direction: column;
    justify-content: flex-start;
@@ -90,8 +90,8 @@ a {
 
 button.sign-up {
    color: #F9FAF8;
-   font-size: 18px;
-   padding: 6px 16px;
+   font-size: 16px;
+   padding: 6px 18px;
    border-radius: 8px;
    background-color: #3882F6;
    border: 1px solid #3882F6;
@@ -156,4 +156,29 @@ button.sign-up {
    font-size: 24px;
    font-weight: bold;
    margin-bottom: 8%;
+}
+
+.action-call .content {
+   background-color: #3882f6;
+   align-items: center;
+   width: 42.5%;
+   padding: 3% 7.5%;
+   border-radius: 8px;
+   margin-top: 8%;
+   margin-bottom: 8%;
+}
+
+.action-call .text {
+   margin-right: auto;
+   margin-left: 2%;
+}
+
+.action-call .main {
+   color: #F9FAF8;
+   font-weight: bold;
+   font-size: 24px;
+}
+
+.action-call button.sign-up {
+   border: 1px solid #F9FAF8;
 }

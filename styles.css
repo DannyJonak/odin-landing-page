@@ -52,7 +52,7 @@ body {
     justify-content: center;
     align-items: center;
     background-color: gray;
-    flex: 1.15 1 0;
+    flex: 1;
  }
 
  .header .content .text {
@@ -65,13 +65,23 @@ body {
 
 .hero-main {
     font-size: 48px;
-    font-weight: 800;
-    margin-right: 3em;
-    margin-bottom: 8px;
+    font-weight: 900;
+    margin-right: 4em;
+    margin-bottom: 6px;
  }
 
  .hero-secondary {
     font-size: 18px;
-    margin-right: 3em;
+    margin-right: 5em;
+    margin-bottom: 12px;
     color: #E5E7EB;
+ }
+
+ button.sign-up {
+   color: white;
+   padding: 6px 16px;
+   border-radius: 8px;
+   background-color: #3882F6;
+   border: 1px solid #3882F6;
+   font-weight: bold;
  }
